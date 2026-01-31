@@ -10,12 +10,12 @@ A simple macOS menu bar app that reminds you to:
 ### Quick Install (after release is published)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/reminder/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/AbhinavGupta-de/reminder/main/scripts/install.sh | bash
 ```
 
 ### Manual Install
 
-1. Download `BreakReminder.zip` from [Releases](https://github.com/YOUR_USERNAME/reminder/releases)
+1. Download `BreakReminder.zip` from [Releases](https://github.com/AbhinavGupta-de/reminder/releases)
 2. Unzip and drag `BreakReminder.app` to `/Applications`
 3. Right-click the app → Open (first time only, to bypass Gatekeeper)
 4. Look for the clock icon in your menu bar
@@ -26,7 +26,7 @@ Requires Xcode and [xcodegen](https://github.com/yonaskolb/XcodeGen).
 
 ```bash
 brew install xcodegen
-git clone https://github.com/YOUR_USERNAME/reminder.git
+git clone https://github.com/AbhinavGupta-de/reminder.git
 cd reminder
 xcodegen generate
 open BreakReminder.xcodeproj
