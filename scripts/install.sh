@@ -5,7 +5,7 @@ set -e
 # Usage: curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/reminder/main/scripts/install.sh | bash
 
 APP_NAME="BreakReminder"
-GITHUB_REPO="AbhinavGupta-de/reminder"
+GITHUB_REPO="AbhinavGupta-de/breakReminder"
 
 echo "Installing $APP_NAME..."
 
