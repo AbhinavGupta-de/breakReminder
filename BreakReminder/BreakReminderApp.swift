@@ -9,7 +9,7 @@ struct BreakReminderApp: App {
         MenuBarExtra {
             MenuBarView(showSettings: $showSettings)
         } label: {
-            Image(systemName: "clock")
+            Image(systemName: "cup.and.saucer.fill")
         }
         .menuBarExtraStyle(.menu)
 
